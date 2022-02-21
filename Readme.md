@@ -10,3 +10,7 @@ expire_logs_days = 7
 ```
 service mysql restart
 ```
+
+```
+mysqlcheck -p --auto-repair --databases database
+```
