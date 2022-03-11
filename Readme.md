@@ -16,3 +16,8 @@ service mysql restart
 ```
 mysqlcheck -p --auto-repair --databases database
 ```
+
+### Backup MySQL
+```
+mysqldump --host=localhost --user=root --password=pwd db > bkp.sql
+```
